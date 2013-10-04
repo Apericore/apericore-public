@@ -1,4 +1,17 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+/* line 8, ../sass/site/_settings.scss */
+.name {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 0.5em;
+}
+
+/* line 15, ../sass/site/_settings.scss */
+#featured > img {
+  width: 100%;
+}
+
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
