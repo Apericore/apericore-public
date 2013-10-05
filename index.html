@@ -26,27 +26,48 @@
 	</nav>
 
 	<!-- Slider -->
-	<div class="full-width"> 
-    	<div class="hide-for-small"> 
-        	<div id="featured">  
-            	<img src="images/coming_soon.png" alt="" /> 
-            	<img src="images/coming_soon.png" alt="" />  
-            	<img src="images/coming_soon.png" alt="" /> 
-        	</div> 
-    	</div> <!-- end hide-for-small -->
-	</div><!-- end full width -->
-
+  <ul data-orbit>
+    <li>
+      <img src="images/coming_soon.png" />
+    </li>
+    <li>
+      <img src="images/coming_soon.png" />
+    </li>
+    <li>
+      <img src="images/coming_soon.png" />
+    </li>
+  </ul>
 
 	<!-- Footer -->
-	<footer>
-	</footer>
 
-	<!-- Call Slideshow --> 
-	<script type="text/javascript"> 
-        	$(window).load(function() { 
-        	$('#featured').orbit(); 
-    	}); 
-	</script> 
+  <script>
+    document.write('<script src=' +
+    ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+    '.js><\/script>')
+  </script>
+  
+  <script src="javascripts/foundation/foundation.js"></script>
+  <script src="javascripts/foundation/foundation.abide.js"></script>
+  <script src="javascripts/foundation/foundation.alerts.js"></script>
+  <script src="javascripts/foundation/foundation.clearing.js"></script>
+  <script src="javascripts/foundation/foundation.cookie.js"></script>
+  <script src="javascripts/foundation/foundation.dropdown.js"></script>
+  <script src="javascripts/foundation/foundation.forms.js"></script>
+  <script src="javascripts/foundation/foundation.interchange.js"></script>
+  <script src="javascripts/foundation/foundation.joyride.js"></script>
+  <script src="javascripts/foundation/foundation.magellan.js"></script> 
+  <script src="javascripts/foundation/foundation.orbit.js"></script>
+  <script src="javascripts/foundation/foundation.placeholder.js"></script>
+  <script src="javascripts/foundation/foundation.reveal.js"></script> 
+  <script src="javascripts/foundation/foundation.section.js"></script>  
+  <script src="javascripts/foundation/foundation.tooltips.js"></script>
+  <script src="javascripts/foundation/foundation.topbar.js"></script>
+  
+  
+  <script>
+    $(document).foundation();
+  </script>
+
 </body>
 
 </html>
