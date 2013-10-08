@@ -1255,8 +1255,8 @@ $body-bg: #3498db;
 
 // Background color for the top bar
 
-// $topbar-bg-color: #2980b9;
-// $topbar-bg: $topbar-bg-color;
+$topbar-bg-color: #333;
+$topbar-bg: $topbar-bg-color;
 
 // Height and margin
 
@@ -1324,4 +1324,39 @@ $body-bg: #3498db;
 // $topbar-sticky-class: ".sticky";
 // $topbar-arrows: true; //Set false to remove the triangle icon from the menu item
 
+//
+//	Site Specific Customisations
+//
+
+// fonts
+$fontFileName: "../fonts/social_foundicons";
+$fontName: "SocialFoundicons";
+$classPrefix: "foundicon-";
+
+@mixin i-class($name,$pua) {
+  .#{$classPrefix}#{$name}:before { 
+    content: "\f#{$pua}";
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$classPrefix}#{$name} { 
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
+  }
+}
+
+@mixin face {
+  @font-face { 
+    font-family: $fontName;
+    src: url('#{$fontFileName}.eot');
+    src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontFileName}.woff') format('woff'),
+         url('#{$fontFileName}.ttf') format('truetype'),
+         url('#{$fontFileName}.svg##{$fontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+// Import Site settings
 @import "./site/settings";
