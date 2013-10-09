@@ -16,6 +16,11 @@ footer {
   background-color: #333;
 }
 
+/* line 23, ../sass/site/_settings.scss */
+.top-bar {
+  margin-top: 0.3em;
+}
+
 /* general icons for IE7 */
 /* line 4, ../sass/social_foundicons_ie7.scss */
 [class*="foundicon-"] {
