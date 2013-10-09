@@ -1,22 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
-/* line 8, ../sass/site/_settings.scss */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/* line 10, ../sass/site/_settings.scss */
 .name {
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   font-size: 1em;
+  background-color: #4ddec2;
 }
 
-/* line 15, ../sass/site/_settings.scss */
+/* line 18, ../sass/site/_settings.scss */
 #featured > img {
   width: 100%;
 }
 
-/* line 19, ../sass/site/_settings.scss */
+/* line 22, ../sass/site/_settings.scss */
 footer {
   background-color: #333;
 }
 
-/* line 23, ../sass/site/_settings.scss */
+/* line 26, ../sass/site/_settings.scss */
 .top-bar {
   margin-top: 0.3em;
 }

@@ -63,9 +63,9 @@ $em-base: 16px !default;
 
 $default-float: left;
 
-$body-bg: #3498db;
+$body-bg: #efece7;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -172,7 +172,7 @@ $body-bg: #3498db;
 
 // Control header font styles
 
-// $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-family: "Varela Round", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; 
 // $header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
@@ -1255,7 +1255,7 @@ $body-bg: #3498db;
 
 // Background color for the top bar
 
-$topbar-bg-color: #333;
+$topbar-bg-color: #FFF;
 $topbar-bg: $topbar-bg-color;
 
 // Height and margin

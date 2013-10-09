@@ -1,14 +1,17 @@
 // Import fonts
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 // logo
 $logo-font-family: 'Varela Round', sans-serif;
 $logo-font-weight: 400;
 $logo-font-size: 1.0em;
+$logo-font-background-color: #4ddec2;
 .name {
 	font-family: $logo-font-family;
 	font-weight: $logo-font-weight;
 	font-size: $logo-font-size;
+	background-color: $logo-font-background-color;
 }
 
 // slider
