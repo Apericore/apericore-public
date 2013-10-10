@@ -1329,23 +1329,20 @@ $topbar-bg: $topbar-bg-color;
 //
 
 // fonts
-$fontFileName: "../fonts/social_foundicons";
-$fontName: "SocialFoundicons";
-$classPrefix: "foundicon-";
 
-@mixin i-class($name,$pua) {
+@mixin i-class($name,$pua,$classPrefix) {
   .#{$classPrefix}#{$name}:before { 
     content: "\f#{$pua}";
   }
 }
 
-@mixin ie-class($name,$pua) {
+@mixin ie-class($name,$pua,$classPrefix) {
   .#{$classPrefix}#{$name} { 
     *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
   }
 }
 
-@mixin face {
+@mixin face ($fontName, $fontFileName) {
   @font-face { 
     font-family: $fontName;
     src: url('#{$fontFileName}.eot');

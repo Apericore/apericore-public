@@ -15,8 +15,30 @@
 }
 
 /* line 22, ../sass/site/_settings.scss */
+.layout-services .row h2 {
+  font-size: 10.0em;
+}
+
+/* line 26, ../sass/site/_settings.scss */
 footer {
   background-color: #363b48;
+}
+
+/* line 32, ../sass/site/_settings.scss */
+.general-foundicon-idea,
+.general-foundicon-website,
+.general-foundicon-people {
+  font-size: 10.0em;
+  color: #4ddec2;
+  text-align: center;
+}
+
+/* line 41, ../sass/site/_settings.scss */
+.social-foundicon-facebook,
+.social-foundicon-twitter,
+.social-foundicon-github,
+.social-foundicon-linkedin {
+  font-size: 3.0em;
 }
 
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */

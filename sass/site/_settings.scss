@@ -19,6 +19,25 @@ $logo-font-background-color: #4ddec2;
 	width:100%;
 } 
 
+.layout-services .row h2 {
+	font-size: 10.0em;
+}
+
 footer {
 	background-color: #363b48;
+}
+
+.general-foundicon-idea, 
+.general-foundicon-website, 
+.general-foundicon-people {
+	font-size: 10.0em;
+	color: #4ddec2;
+	text-align: center;
+}
+
+.social-foundicon-facebook,
+.social-foundicon-twitter,
+.social-foundicon-github,
+.social-foundicon-linkedin {
+	font-size: 3.0em;
 }
