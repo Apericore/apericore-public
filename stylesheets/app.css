@@ -24,31 +24,38 @@ footer {
   background-color: #363b48;
 }
 
-/* line 32, ../sass/site/_settings.scss */
+/* line 30, ../sass/site/_settings.scss */
+#layout-social-links {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+/* line 37, ../sass/site/_settings.scss */
 .general-foundicon-idea,
 .general-foundicon-website,
 .general-foundicon-people {
   font-size: 10.0em;
   color: #4ddec2;
   text-align: center;
+  color: #4ddec2;
 }
 
-/* line 38, ../sass/site/_settings.scss */
+/* line 44, ../sass/site/_settings.scss */
 .general-foundicon-idea {
   color: #FFD464;
 }
 
-/* line 42, ../sass/site/_settings.scss */
+/* line 48, ../sass/site/_settings.scss */
 .general-foundicon-website {
   color: #EB5055;
 }
 
-/* line 46, ../sass/site/_settings.scss */
+/* line 52, ../sass/site/_settings.scss */
 .general-foundicon-people {
   color: #4ddec2;
 }
 
-/* line 53, ../sass/site/_settings.scss */
+/* line 59, ../sass/site/_settings.scss */
 .social-foundicon-facebook,
 .social-foundicon-twitter,
 .social-foundicon-github,
