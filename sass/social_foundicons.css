@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.name {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  background-color: #4ddec2; }
+
+body {
+  background-color: #4ddec2;
+  height: 100%; }
+
+#featured > img {
+  width: 100%; }
+
+#layout-services {
+  text-align: center; }
+
+#layout-contact {
+  background-color: #CF875F; }
+
+footer {
+  background-color: #363b48; }
+
+#layout-social-links {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em; }
+
+.general-foundicon-idea,
+.general-foundicon-website,
+.general-foundicon-people {
+  font-size: 10.0em;
+  color: #4ddec2;
+  text-align: center;
+  color: #4ddec2; }
+
+.general-foundicon-idea {
+  color: #EFC94C; }
+
+.general-foundicon-website {
+  color: #EB5055; }
+
+.general-foundicon-people {
+  color: #4ddec2; }
+
+.social-foundicon-facebook,
+.social-foundicon-twitter,
+.social-foundicon-github,
+.social-foundicon-linkedin {
+  font-size: 3.0em; }
+
+#intro h1 {
+  color: #ffffff; }
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px; }
+
+.centered-low {
+  position: relative;
+  top: 50%;
+  left: 50%; }
+
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* global foundicon styles */
+[class*="social-foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat; }
+
+[class*="social-foundicon-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit; }
+
+/* icons */
+.social-foundicon-thumb-up:before {
+  content: "\f000"; }
+
+.social-foundicon-thumb-down:before {
+  content: "\f001"; }
+
+.social-foundicon-rss:before {
+  content: "\f002"; }
+
+.social-foundicon-facebook:before {
+  content: "\f003"; }
+
+.social-foundicon-twitter:before {
+  content: "\f004"; }
+
+.social-foundicon-pinterest:before {
+  content: "\f005"; }
+
+.social-foundicon-github:before {
+  content: "\f006"; }
+
+.social-foundicon-path:before {
+  content: "\f007"; }
+
+.social-foundicon-linkedin:before {
+  content: "\f008"; }
+
+.social-foundicon-dribbble:before {
+  content: "\f009"; }
+
+.social-foundicon-stumble-upon:before {
+  content: "\f00a"; }
+
+.social-foundicon-behance:before {
+  content: "\f00b"; }
+
+.social-foundicon-reddit:before {
+  content: "\f00c"; }
+
+.social-foundicon-google-plus:before {
+  content: "\f00d"; }
+
+.social-foundicon-youtube:before {
+  content: "\f00e"; }
+
+.social-foundicon-vimeo:before {
+  content: "\f00f"; }
+
+.social-foundicon-flickr:before {
+  content: "\f010"; }
+
+.social-foundicon-slideshare:before {
+  content: "\f011"; }
+
+.social-foundicon-picassa:before {
+  content: "\f012"; }
+
+.social-foundicon-skype:before {
+  content: "\f013"; }
+
+.social-foundicon-steam:before {
+  content: "\f014"; }
+
+.social-foundicon-instagram:before {
+  content: "\f015"; }
+
+.social-foundicon-foursquare:before {
+  content: "\f016"; }
+
+.social-foundicon-delicious:before {
+  content: "\f017"; }
+
+.social-foundicon-chat:before {
+  content: "\f018"; }
+
+.social-foundicon-torso:before {
+  content: "\f019"; }
+
+.social-foundicon-tumblr:before {
+  content: "\f01a"; }
+
+.social-foundicon-video-chat:before {
+  content: "\f01b"; }
+
+.social-foundicon-digg:before {
+  content: "\f01c"; }
+
+.social-foundicon-wordpress:before {
+  content: "\f01d"; }

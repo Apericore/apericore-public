@@ -14,6 +14,12 @@ $logo-font-background-color: #4ddec2;
 	background-color: $logo-font-background-color;
 }
 
+body {
+  background-color: #4ddec2;
+  height: 100%;
+}
+
+
 // slider
 #featured > img {
 	width:100%;
@@ -62,4 +68,21 @@ footer {
 .social-foundicon-github,
 .social-foundicon-linkedin {
 	font-size: 3.0em;
+}
+
+#intro h1 {
+  color: #ffffff;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.centered-low {
+  position: relative;
+  top: 50%;
+  left: 50%;
 }
